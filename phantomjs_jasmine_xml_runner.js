@@ -72,7 +72,7 @@ if ( phantom.args.length !== 2 ) {
  * @param timeOutMillis the max amount of time to wait. If not specified, 3 sec is used.
  */
  var waitFor = function(testFx, onReady, timeOutMillis) {
-    var maxtimeOutMillis = timeOutMillis ? timeOutMillis : 240001, //< Default Max Timeout is 60s
+    var maxtimeOutMillis = timeOutMillis ? timeOutMillis : 480001, //< Default Max Timeout is 60s
     start = new Date().getTime(),
     condition = false,
     interval = setInterval(function() {
